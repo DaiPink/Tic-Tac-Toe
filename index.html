@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!-- Specifies the document type as HTML5 -->
+<html lang="en"> <!-- Defines the document language as English -->
+
+<head>
+    <!-- Meta tags for defining character set, compatibility, and viewport settings -->
+    <meta charset="UTF-8"> <!-- Character set encoding -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibility with Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport settings for responsive design -->
+    
+    <title>Tic_Tac_Toe</title> <!-- Page title displayed in the browser tab -->
+    
+    <link rel="stylesheet" href="style.css"> <!-- Link to an external CSS stylesheet for styling -->
+
+</head>
+
+<body>
+    <!-- Container for displaying the current player's turn -->
+    <div class="turn-container">
+        <h3>Turn For</h3> <!-- Heading indicating "Turn For" -->
+        <!-- Div elements representing the players ("X" and "O") -->
+        <div class="turn-box align">X</div>
+        <div class="turn-box align">O</div>
+        <!-- Background element for styling -->
+        <div class="bg"></div>
+    </div>
+
+    <!-- Main grid for the tic-tac-toe game -->
+    <div class="main-grid">
+        <!-- Individual grid cells (boxes) where the game is played -->
+        <div class="box align">0</div>
+        <div class="box align">1</div>
+        <div class="box align">2</div>
+        <div class="box align">3</div>
+        <div class="box align">4</div>
+        <div class="box align">5</div>
+        <div class="box align">6</div>
+        <div class="box align">7</div>
+        <div class="box align">8</div>
+    </div>
+
+    <h2 id="results"></h2> <!-- Heading element for displaying game results -->
+    <button id="play-again">Play Again</button> <!-- Button for playing the game again -->
+
+    <!-- Script tag to include an external JavaScript file for game logic -->
+    <script src="script.js"></script>
+</body>
+</html>
